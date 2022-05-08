@@ -1,3 +1,11 @@
+# Inversiones dos patos: Landing page
+
+## TODO:
+
+- Have investments
+- Fix svg
+- Fill proper content
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
