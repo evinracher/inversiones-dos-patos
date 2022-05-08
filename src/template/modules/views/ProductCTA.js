@@ -74,7 +74,7 @@ function ProductCTA() {
               right: 0,
               bottom: 0,
               width: "100%",
-              background: "url(/static/images/productCTAImageDots.png)",
+              background: `url(${process.env.PUBLIC_URL}/static/images/productCTAImageDots.png)`,
             }}
           />
           <Box

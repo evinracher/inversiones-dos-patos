@@ -21,7 +21,7 @@ function ProductValues() {
       <Container sx={{ mt: 15, mb: 30, display: "flex", position: "relative" }}>
         <Box
           component="img"
-          src="/static/images/productCurvyLines.png"
+          src={`${process.env.PUBLIC_URL}/static/images/productCurvyLines.png`}
           alt="curvy lines"
           sx={{ pointerEvents: "none", position: "absolute", top: -180 }}
         />
@@ -30,7 +30,7 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="/static/images/productValues1.svg"
+                src={`${process.env.PUBLIC_URL}/static/images/productValues1.svg`}
                 alt="suitcase"
                 sx={{ height: 55 }}
               />
@@ -52,7 +52,7 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="/static/images/productValues2.svg"
+                src={`${process.env.PUBLIC_URL}/static/images/productValues2.svg`}
                 alt="graph"
                 sx={{ height: 55 }}
               />
@@ -72,7 +72,7 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="/static/images/productValues3.svg"
+                src={`${process.env.PUBLIC_URL}/static/images/productValues3.svg`}
                 alt="clock"
                 sx={{ height: 55 }}
               />

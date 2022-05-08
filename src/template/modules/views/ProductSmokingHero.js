@@ -33,7 +33,7 @@ function ProductSmokingHero() {
       </Typography>
       <Box
         component="img"
-        src="/static/images/producBuoy.svg"
+        src={`${process.env.PUBLIC_URL}/static/images/producBuoy.svg`}
         alt="buoy"
         sx={{ width: 60 }}
       />
