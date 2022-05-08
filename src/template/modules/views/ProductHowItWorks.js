@@ -62,7 +62,7 @@ function ProductHowItWorks() {
                 <Box sx={number}>1.</Box>
                 <Box
                   component="img"
-                  src={`${process.env.PUBLIC_URL}/static/images/productHowItWorks1.svg`}
+                  src={"/static/images/productHowItWorks1.svg"}
                   alt="suitcase"
                   sx={image}
                 />
